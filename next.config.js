@@ -11,6 +11,11 @@ module.exports = {
         hostname: 'images.unsplash.com',
         port: '',
       },
+      {
+        protocol: 'https',
+        hostname: 'links.papareact.com',
+        port: '',
+      },
     ],
   },
 }
