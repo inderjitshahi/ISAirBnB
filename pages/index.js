@@ -9,9 +9,6 @@ import SmallCard from '../components/SmallCard'
 export default function Home({ exploreData, liveData }) {
   // console.log(exploreData);
   return <div className='min-h-[200vh]'>
-    <Head>
-      <title>IS Airbnb</title>
-    </Head>
     <Header />
     <Banner />
     <main className='max-w-7xl mx-auto px-8 sm:px-16'>
@@ -39,7 +36,7 @@ export default function Home({ exploreData, liveData }) {
         buttonText="Get Inspired"
       />
     </main>
-    <Footer/>
+    <Footer />
   </div>
 }
 
